@@ -1,0 +1,62 @@
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".RulesFragment">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageButton
+            android:id="@+id/backButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true"
+            android:backgroundTint="@color/darkBackgroundColor"
+            android:src="@drawable/ic_arrow_back"/>
+
+        <TextView
+            android:id="@+id/rulesTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/RulesTextViews"
+            android:text="@string/rules_text"
+            android:layout_above="@id/rulesTextView2"/>
+
+
+        <TextView
+            android:id="@+id/rulesTextView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            style="@style/RulesTextViews"
+            android:text="@string/rules_text2"
+            android:layout_above="@id/emptySpace3"/>
+
+        <View
+            android:id="@+id/emptySpace3"
+            android:layout_width="4dp"
+            android:layout_height="4dp"
+            android:layout_centerInParent="true"/>
+
+        <TextView
+            android:id="@+id/rulesTextView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="28dp"
+            style="@style/RulesTextViews"
+            android:text="@string/rules_text3"
+            android:layout_below="@id/emptySpace3"/>
+
+        <TextView
+            android:id="@+id/rulesTextView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            style="@style/RulesTextViews"
+            android:text="@string/rules_text4"
+            android:layout_below="@id/rulesTextView3"/>
+
+    </RelativeLayout>
+</layout>

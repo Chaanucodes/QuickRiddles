@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".AboutFragment">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageButton
+            android:id="@+id/backButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true"
+            android:backgroundTint="@color/darkBackgroundColor"
+            android:src="@drawable/ic_arrow_back"/>
+
+        <TextView
+            android:id="@+id/aboutTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingEnd="8dp"
+            android:paddingStart="16dp"
+            android:paddingTop="16dp"
+            android:paddingBottom="16dp"
+            android:textColor="?attr/colorControlNormal"
+            android:layout_centerInParent="true"
+            android:fontFamily="@font/amaranth"
+            android:textSize="18sp"
+            android:background="@drawable/about_shape"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="16dp"
+            android:elevation="4dp"
+            android:text="@string/about_text"/>
+
+<!--        <View-->
+<!--            android:id="@+id/emptySpace2"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="8dp"-->
+<!--            android:layout_centerInParent="true"/>-->
+
+        <ImageView
+            android:id="@+id/smilyImage"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/aboutTextView"
+            android:src="@drawable/ic_smile"/>
+    </RelativeLayout>
+
+</layout>

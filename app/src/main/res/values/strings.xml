@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Quick Riddles</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_title">Riddles</string>
+    <string name="play_button_text">Play</string>
+    <string name="rules_button_text">Rules</string>
+    <string name="about_text">This app was created by Pratikshit. I will be making more apps soon, this is just for a bit of fun. This was <b>version 0.95 (stable)</b>
+    and an update will be released before you fall in love with this app</string>
+
+    <string name="rules_text">There are 10 questions and there\'s only one correct answer (one word) for each one of them. If your answer is correct, no need to press any button, app will automatically verify your answer.</string>
+    <string name="rules_text2">You have 30 seconds to answer each riddle, if you fail to write the correct response, answer will be revealed and your score will be reduced by one.</string>
+    <string name="rules_text3">You get 1 point for a correct answer, and -1 for pressing skip button.</string>
+    <string name="rules_text4">You have 3 hints at your disposal, activate a hint by pressing the bulb icon on the top right corner</string>
+
+    <string name="score_format">Current Score: %d</string>
+    <string name="riddle_format">"%s"</string>
+    <string name="cancel">Cancel</string>
+    <string name="dialog_exit_game">Do you want to leave the game?</string>
+    <string name="yes">Yes</string>
+    <string name="win_message">You won!! Congrats.</string>
+    <string name="version">v 0.95 (stable)</string>
+    <string name="cred">Made by Pratikshit</string>
+    <string name="skip">skip</string>
+    <string name="hint_edit_text">Type your answer here</string>
+</resources>

@@ -1,0 +1,38 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.DayNight.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="MyButtons" parent="Widget.AppCompat.Button">
+        <item name="android:textColor">?attr/colorControlNormal</item>
+        <item name="android:background">@drawable/button_state_selector</item>
+        <item name="android:fontFamily">@font/acme</item>
+        <item name="android:textSize">20sp</item>
+
+    </style>
+
+    <style name="MyButtonsRed" parent="Widget.AppCompat.Button">
+        <item name="android:textColor">?attr/colorControlNormal</item>
+        <item name="android:background">@drawable/red_button_state_selector</item>
+        <item name="android:fontFamily">@font/acme</item>
+        <item name="android:textSize">20sp</item>
+
+    </style>
+
+    <style name="RulesTextViews" parent="Widget.AppCompat.TextView">
+        <item name="android:padding">8dp</item>
+        <item name="android:layout_marginStart">16dp</item>
+        <item name="android:layout_marginEnd">8dp</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:fontFamily">@font/amaranth</item>
+        <item name="android:background">@drawable/rules_shape</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:textColor">?attr/colorControlNormal</item>
+    </style>
+
+</resources>
